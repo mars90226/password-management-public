@@ -19,6 +19,7 @@ Usage: ruby PasswordManagement.rb [commands] name [options]
     use 'ruby PasswordManagement.rb -h' to see help
   EOF
   INFINITY = 1.0 / 0
+  # TODO: encoding seems not useful, maybe remove it?
   @@encoding = 'big5'
   @@option = 'default'
 
